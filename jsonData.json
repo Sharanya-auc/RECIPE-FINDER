@@ -1,0 +1,599 @@
+[
+  {
+    "id": 1,
+    "location": "Hyderabad",
+    "title": "Hyderabadi Biryani",
+    "image": "https://cdn.siasat.com/wp-content/uploads/2020/02/Biryani-1.jpg",
+    "instructions": "Marinate chicken, cook rice, layer, and dum-cook.",
+    "ingredients": [
+      { "name": "Basmati rice", "amount": "500g" },
+      { "name": "Chicken", "amount": "500g" },
+      { "name": "Yogurt", "amount": "1 cup" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Saffron", "amount": "a pinch" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 2,
+    "location": "Kerala",
+    "title": "Kerala Fish Curry",
+    "image": "https://vaya.in/recipes/wp-content/uploads/2018/04/Kerala-Fish-Curry.jpg",
+    "instructions": "Prepare coconut gravy, cook fish with spices and simmer.",
+    "ingredients": [
+      { "name": "Fish", "amount": "500g" },
+      { "name": "Coconut milk", "amount": "1 cup" },
+      { "name": "Curry leaves", "amount": "a handful" },
+      { "name": "Tamarind", "amount": "as needed" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 3,
+    "location": "Tamil Nadu",
+    "title": "Chettinad Chicken Curry",
+    "image": "https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/Chettinad-Chicken-Curry.webp",
+    "instructions": "Roast spices, make masala, cook chicken with masala.",
+    "ingredients": [
+      { "name": "Chicken", "amount": "500g" },
+      { "name": "Coconut", "amount": "1 cup grated" },
+      { "name": "Spices", "amount": "as needed" },
+      { "name": "Onions", "amount": "2 large" },
+      { "name": "Tomatoes", "amount": "2 medium" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 4,
+    "location": "Hyderabad",
+    "title": "Mirchi Ka Salan",
+    "image": "https://th.bing.com/th/id/OIP.oN6PUcXlSJLR-Qd6IeOLoAHaFj?rs=1&pid=ImgDetMain",
+    "instructions": "Roast spices, prepare gravy, and cook chilies.",
+    "ingredients": [
+      { "name": "Green chilies", "amount": "6 large" },
+      { "name": "Peanuts", "amount": "1/4 cup" },
+      { "name": "Sesame seeds", "amount": "2 tbsp" },
+      { "name": "Coconut", "amount": "2 tbsp" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 5,
+    "location": "Punjab",
+    "title": "Butter Chicken",
+    "image": "https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken--750x750.jpg",
+    "instructions": "Prepare marinated chicken, cook in a rich tomato gravy.",
+    "ingredients": [
+      { "name": "Chicken", "amount": "500g" },
+      { "name": "Tomatoes", "amount": "4 large" },
+      { "name": "Butter", "amount": "3 tbsp" },
+      { "name": "Cream", "amount": "1/2 cup" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 6,
+    "location": "Kerala",
+    "title": "Appam",
+    "image": "https://th.bing.com/th/id/R.babbef9fc29bed5fd71d58040876e1f4?rik=XghnbyIGTCGQlQ&riu=http%3a%2f%2fcarnivalmunchies.com%2fwp-content%2fuploads%2f2015%2f10%2fappam.jpg&ehk=8aEE9jfJrtRQilNYCkklirw8YoxnDOWgzXJdp1pGAT4%3d&risl=1&pid=ImgRaw&r=0",
+    "instructions": "Prepare batter, pour into a hot pan, and cook until fluffy.",
+    "ingredients": [
+      { "name": "Rice", "amount": "2 cups" },
+      { "name": "Coconut milk", "amount": "1 cup" },
+      { "name": "Sugar", "amount": "1 tbsp" },
+      { "name": "Yeast", "amount": "1 tsp" },
+      { "name": "Salt", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 7,
+    "location": "Tamil Nadu",
+    "title": "Rasam",
+    "image": "https://th.bing.com/th/id/OIP.WvFlAM-YbDiVX1nkdi48uwHaE8?rs=1&pid=ImgDetMain",
+    "instructions": "Boil tamarind, add spices and temper with curry leaves.",
+    "ingredients": [
+      { "name": "Tamarind", "amount": "1 small lemon-sized ball" },
+      { "name": "Tomatoes", "amount": "2 medium" },
+      { "name": "Garlic", "amount": "4 cloves" },
+      { "name": "Curry leaves", "amount": "a few" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 8,
+    "location": "Hyderabad",
+    "title": "Double Ka Meetha",
+    "image": "https://yummyindiankitchen.com/wp-content/uploads/2020/11/hyderabadi-double-ka-meetha-how-to-make-double-ka-meetha-1024x576.jpg",
+    "instructions": "Fry bread, prepare milk syrup, layer, and bake.",
+    "ingredients": [
+      { "name": "Bread slices", "amount": "6" },
+      { "name": "Milk", "amount": "500ml" },
+      { "name": "Sugar", "amount": "1/2 cup" },
+      { "name": "Cardamom", "amount": "2 pods" },
+      { "name": "Ghee", "amount": "3 tbsp" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 9,
+    "location": "Punjab",
+    "title": "Sarson Ka Saag",
+    "image": "https://www.thespruceeats.com/thmb/Ma7OdkBOh5OgQjd3mYlGo8EdGJk=/5883x3927/filters:fill(auto,1)/sarson-ka-saag-1957985-hero-01-7bb3c7be6bec456da4407eda0ef95707.jpg",
+    "instructions": "Cook mustard greens with spices and serve with roti.",
+    "ingredients": [
+      { "name": "Mustard greens", "amount": "500g" },
+      { "name": "Cornmeal", "amount": "2 tbsp" },
+      { "name": "Garlic", "amount": "3 cloves" },
+      { "name": "Ginger", "amount": "1 inch" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 10,
+    "location": "Mumbai",
+    "title": "Vada Pav",
+    "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2019/Cheesy_Vada_Pav_Recipe_Britannia_Cheesy_Kitchen_Recipe_Video_20_1600.jpg",
+    "instructions": "Prepare potato filling, fry in batter, and serve in pav.",
+    "ingredients": [
+      { "name": "Potatoes", "amount": "3 medium" },
+      { "name": "Gram flour", "amount": "1 cup" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Pav buns", "amount": "4" },
+      { "name": "Chutneys", "amount": "as needed" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 11,
+    "location": "Delhi",
+    "title": "Chole Bhature",
+    "image": "https://2.bp.blogspot.com/-OU_L_dlS_G0/Wx9rVpMKeVI/AAAAAAAAAEE/lL6pyCPBVoQkBxbpYZg9wRt6-Lce51C7ACLcBGAs/s1600/imperial%2Binn.jpg",
+    "instructions": "Cook chickpeas with spices and prepare deep-fried bhature.",
+    "ingredients": [
+      { "name": "Chickpeas", "amount": "1 cup" },
+      { "name": "Flour", "amount": "2 cups" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Onions", "amount": "2 medium" },
+      { "name": "Tomatoes", "amount": "2 medium" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 12,
+    "location": "Maharashtra",
+    "title": "Puran Poli",
+    "image": "https://shwetainthekitchen.com/wp-content/uploads/2020/03/IMG_7944-scaled.jpg",
+    "instructions": "Prepare sweet lentil filling, roll into dough, and cook on tawa.",
+    "ingredients": [
+      { "name": "Chana dal", "amount": "1 cup" },
+      { "name": "Jaggery", "amount": "1 cup" },
+      { "name": "Flour", "amount": "2 cups" },
+      { "name": "Ghee", "amount": "2 tbsp" },
+      { "name": "Cardamom", "amount": "1 tsp" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 13,
+    "location": "Gujarat",
+    "title": "Dhokla",
+    "image": "https://images.herzindagi.info/image/2019/Jun/easy-instant-dhokla-recipe.jpg",
+    "instructions": "Prepare batter, steam, and temper with mustard seeds.",
+    "ingredients": [
+      { "name": "Gram flour", "amount": "1 cup" },
+      { "name": "Yogurt", "amount": "1/2 cup" },
+      { "name": "Eno fruit salt", "amount": "1 tsp" },
+      { "name": "Curry leaves", "amount": "a handful" },
+      { "name": "Mustard seeds", "amount": "1 tsp" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 14,
+    "location": "Mumbai",
+    "title": "Pav Bhaji",
+    "image": "https://www.cookwithmanali.com/wp-content/uploads/2018/05/Best-Pav-Bhaji-Recipe.jpg",
+    "instructions": "Cook vegetables, mash with spices, and serve with buttered pav.",
+    "ingredients": [
+      { "name": "Mixed vegetables", "amount": "2 cups" },
+      { "name": "Pav buns", "amount": "4" },
+      { "name": "Butter", "amount": "2 tbsp" },
+      { "name": "Onions", "amount": "1 large" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 15,
+    "location": "Delhi",
+    "title": "Rajma Chawal",
+    "image": "https://www.secondrecipe.com/wp-content/uploads/2017/08/rajma-chawal-1.jpg",
+    "instructions": "Cook kidney beans in tomato gravy and serve over rice.",
+    "ingredients": [
+      { "name": "Kidney beans", "amount": "1 cup" },
+      { "name": "Rice", "amount": "2 cups" },
+      { "name": "Onions", "amount": "2 medium" },
+      { "name": "Tomatoes", "amount": "2 medium" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 16,
+    "location": "Goa",
+    "title": "Goan Fish Curry",
+    "image": "https://recipes.timesofindia.com/thumb/55224612.cms?imgsize=539861&width=800&height=800",
+    "instructions": "Prepare coconut curry and cook fish with spices.",
+    "ingredients": [
+      { "name": "Fish", "amount": "500g" },
+      { "name": "Coconut milk", "amount": "1 cup" },
+      { "name": "Tamarind", "amount": "1 tbsp" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Curry leaves", "amount": "a handful" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 17,
+    "location": "Maharashtra",
+    "title": "Misal Pav",
+    "image": "https://www.desidakaar.com/wp-content/uploads/2017/03/misal-pav-768x432.jpg",
+    "instructions": "Prepare spicy sprout curry and serve with pav.",
+    "ingredients": [
+      { "name": "Sprouts", "amount": "1 cup" },
+      { "name": "Pav buns", "amount": "4" },
+      { "name": "Onions", "amount": "1 medium" },
+      { "name": "Tomatoes", "amount": "2 medium" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 18,
+    "location": "Gujarat",
+    "title": "Thepla",
+    "image": "https://lh4.ggpht.com/_WVu0gJovIxY/Sg5VgGYdCjI/AAAAAAAAHMo/2JxzlQzMklk/DSC_3244_thumb[2].jpg?imgmax=800",
+    "instructions": "Prepare dough with spices, roll, and cook on tawa.",
+    "ingredients": [
+      { "name": "Flour", "amount": "2 cups" },
+      { "name": "Fenugreek leaves", "amount": "1 cup" },
+      { "name": "Yogurt", "amount": "1/2 cup" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Oil", "amount": "as needed" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 19,
+    "location": "Delhi",
+    "title": "Aloo Tikki",
+    "image": "https://www.whiskaffair.com/wp-content/uploads/2020/09/Aloo-Tikki-2-3.jpg",
+    "instructions": "Prepare potato patties, fry, and serve with chutney.",
+    "ingredients": [
+      { "name": "Potatoes", "amount": "3 medium" },
+      { "name": "Breadcrumbs", "amount": "1/2 cup" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Chutneys", "amount": "as needed" },
+      { "name": "Oil", "amount": "for frying" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 20,
+    "location": "West Bengal",
+    "title": "Rosogolla",
+    "image": "https://mediaindia.eu/wp-content/uploads/2017/11/ee20d284-c90f-11e7-855e-d08d9ee048bd-1.jpg",
+    "instructions": "Prepare chhena, shape into balls, and cook in sugar syrup.",
+    "ingredients": [
+      { "name": "Milk", "amount": "1 liter" },
+      { "name": "Lemon juice", "amount": "2 tbsp" },
+      { "name": "Sugar", "amount": "2 cups" },
+      { "name": "Water", "amount": "4 cups" },
+      { "name": "Cardamom", "amount": "2 pods" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 21,
+    "location": "Kashmir",
+    "title": "Rogan Josh",
+    "image": "https://th.bing.com/th/id/R.22003c1631159f2c31b3253c5434ec76?rik=Ttc4r89KIs0OOw&riu=http%3a%2f%2fwww.archanaskitchen.com%2fimages%2farchanaskitchen%2f1-Author%2fShaheen_Ali%2fKashmiri_Rogan_Josh.jpg&ehk=eG9ODF%2bJfnqfWKoCEJ%2bYDPalZKPPlpdB4C05qSpuy7o%3d&risl=&pid=ImgRaw&r=0",
+    "instructions": "Cook mutton in aromatic spices and yogurt gravy.",
+    "ingredients": [
+      { "name": "Mutton", "amount": "500g" },
+      { "name": "Yogurt", "amount": "1 cup" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Onions", "amount": "2 medium" },
+      { "name": "Garlic", "amount": "4 cloves" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 22,
+    "location": "Rajasthan",
+    "title": "Dal Baati Churma",
+    "image": "https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/1x1/1x1-dal-baati-churma.jpg",
+    "instructions": "Prepare dal, bake baati, and serve with churma.",
+    "ingredients": [
+      { "name": "Toor dal", "amount": "1 cup" },
+      { "name": "Wheat flour", "amount": "2 cups" },
+      { "name": "Ghee", "amount": "1/2 cup" },
+      { "name": "Jaggery", "amount": "1/2 cup" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 23,
+    "location": "Assam",
+    "title": "Masor Tenga",
+    "image": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/141426-bzaxohurwz-1589560606.jpg",
+    "instructions": "Cook fish in a tangy tomato and lemon gravy.",
+    "ingredients": [
+      { "name": "Fish", "amount": "500g" },
+      { "name": "Tomatoes", "amount": "3 medium" },
+      { "name": "Lemon", "amount": "1" },
+      { "name": "Mustard seeds", "amount": "1 tsp" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 24,
+    "location": "Odisha",
+    "title": "Pakhala Bhata",
+    "image": "https://img-global.cpcdn.com/recipes/a6b99c62478bedc1/751x532cq70/pakhala-bhata-recipe-main-photo.jpg",
+    "instructions": "Ferment cooked rice in water and serve with accompaniments.",
+    "ingredients": [
+      { "name": "Rice", "amount": "2 cups" },
+      { "name": "Water", "amount": "4 cups" },
+      { "name": "Curd", "amount": "1 cup" },
+      { "name": "Curry leaves", "amount": "a handful" },
+      { "name": "Mustard seeds", "amount": "1 tsp" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 25,
+    "location": "Bihar",
+    "title": "Litti Chokha",
+    "image": "https://mummyrecipes.in/wp-content/uploads/2019/09/littichokeCover.jpg",
+    "instructions": "Prepare litti dough and stuffing, roast, and serve with chokha.",
+    "ingredients": [
+      { "name": "Wheat flour", "amount": "2 cups" },
+      { "name": "Sattu", "amount": "1 cup" },
+      { "name": "Brinjal", "amount": "1 large" },
+      { "name": "Tomatoes", "amount": "2 medium" },
+      { "name": "Spices", "amount": "to taste" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 26,
+    "location": "Uttarakhand",
+    "title": "Aloo Ke Gutke",
+    "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/ruby_pathak-yahoo.com/Uttarakhand__Aloo_Ke_Gutke.jpg",
+    "instructions": "Stir-fry boiled potatoes with local spices.",
+    "ingredients": [
+      { "name": "Potatoes", "amount": "4 medium" },
+      { "name": "Cumin seeds", "amount": "1 tsp" },
+      { "name": "Mustard oil", "amount": "2 tbsp" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Coriander leaves", "amount": "for garnish" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 27,
+    "location": "Jharkhand",
+    "title": "Dhuska",
+    "image": "https://images.slurrp.com/prodarticles/qxeths1q2ol.webp",
+    "instructions": "Prepare batter with rice and lentils, fry, and serve with curry.",
+    "ingredients": [
+      { "name": "Rice", "amount": "1 cup" },
+      { "name": "Chana dal", "amount": "1/2 cup" },
+      { "name": "Onions", "amount": "1 medium" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Oil", "amount": "for frying" }
+    ],
+    "dietary": "vegetarian"
+  },
+  {
+    "id": 28,
+    "location": "Manipur",
+    "title": "Eromba",
+    "image": "https://alchetron.com/cdn/eromba-968ee452-d683-4045-a045-fd948d32ad9-resize-750.jpeg",
+    "instructions": "Boil vegetables, mash with fermented fish, and serve.",
+    "ingredients": [
+      { "name": "Vegetables", "amount": "2 cups" },
+      { "name": "Fermented fish", "amount": "1 tbsp" },
+      { "name": "Red chilies", "amount": "2-3" },
+      { "name": "Salt", "amount": "to taste" },
+      { "name": "Coriander leaves", "amount": "for garnish" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 29,
+    "location": "Nagaland",
+    "title": "Smoked Pork with Bamboo Shoot",
+    "image": "https://i0.wp.com/ukhrultimes.com/wp-content/uploads/2020/08/pork-with-bamboo-shoot.jpeg?w=1280&ssl=1",
+    "instructions": "Cook smoked pork with bamboo shoots and spices.",
+    "ingredients": [
+      { "name": "Smoked pork", "amount": "500g" },
+      { "name": "Bamboo shoots", "amount": "1 cup" },
+      { "name": "Garlic", "amount": "5 cloves" },
+      { "name": "Spices", "amount": "to taste" },
+      { "name": "Salt", "amount": "to taste" }
+    ],
+    "dietary": "non-vegetarian"
+  },
+  {
+    "id": 30,
+    "location": "West Bengal",
+    "title": "Mishti Doi",
+    "image": "https://1.bp.blogspot.com/-YQJzk_msFdQ/XZcGI70quZI/AAAAAAAAeq8/ZUjzFmvto3I4_zBnxVFjMGI802u-URaTwCLcBGAsYHQ/s1600/IMG_7172.JPG",
+    "instructions": "Mix milk, sugar, and yogurt. Ferment overnight.",
+    "ingredients": [
+      { "name": "Milk", "amount": "1 liter" },
+      { "name": "Sugar", "amount": "1 cup" },
+      { "name": "Yogurt", "amount": "2 tbsp" }
+    ],
+    "dietary": "vegetarian"
+  }
+  ,
+              {
+                "id": 31,
+                "location": "Kashmir",
+                "title": "Kahwa",
+                "image": "https://www.seema.com/wp-content/uploads/2022/08/Kahwa2-1.jpg",
+                "instructions": "Brew saffron, spices, and green tea in water.",
+                "ingredients": [
+                  { "name": "Green tea leaves", "amount": "1 tsp" },
+                  { "name": "Saffron", "amount": "a pinch" },
+                  { "name": "Almonds", "amount": "5-6" },
+                  { "name": "Cardamom", "amount": "2 pods" },
+                  { "name": "Sugar", "amount": "to taste" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 32,
+                "location": "Rajasthan",
+                "title": "Gatte Ki Sabzi",
+                "image": "https://th.bing.com/th/id/OIP.rQPmvUT10o_QqPCXbH28CAAAAA?rs=1&pid=ImgDetMain",
+                "instructions": "Prepare gram flour dumplings and cook in yogurt-based gravy.",
+                "ingredients": [
+                  { "name": "Gram flour", "amount": "1 cup" },
+                  { "name": "Yogurt", "amount": "1 cup" },
+                  { "name": "Spices", "amount": "to taste" },
+                  { "name": "Ghee", "amount": "2 tbsp" },
+                  { "name": "Cumin seeds", "amount": "1 tsp" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 33,
+                "location": "Assam",
+                "title": "Pitha",
+                "image": "https://images.slurrp.com/prodarticles/afkq1wflnsm.webp",
+                "instructions": "Prepare rice flour dough, fill with jaggery and coconut, and steam or fry.",
+                "ingredients": [
+                  { "name": "Rice flour", "amount": "2 cups" },
+                  { "name": "Jaggery", "amount": "1 cup" },
+                  { "name": "Coconut", "amount": "1 cup" },
+                  { "name": "Water", "amount": "as needed" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 34,
+                "location": "Odisha",
+                "title": "Chenna Poda",
+                "image": "https://th.bing.com/th/id/R.8b1e427184d94e056e57a284c3fb1ba6?rik=UzkhvWCRR2iyIA&riu=http%3a%2f%2fi.ytimg.com%2fvi%2fcOoC0accGxE%2fmaxresdefault.jpg&ehk=NpN25c6d5%2fYKLQd%2fUgvh%2fYcOSXlmuTnW%2fF1%2fnxw1TjU%3d&risl=&pid=ImgRaw&r=0",
+                "instructions": "Mix chhena, sugar, and semolina. Bake until golden brown.",
+                "ingredients": [
+                  { "name": "Chhena", "amount": "500g" },
+                  { "name": "Sugar", "amount": "1 cup" },
+                  { "name": "Semolina", "amount": "2 tbsp" },
+                  { "name": "Cardamom powder", "amount": "1 tsp" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 35,
+                "location": "Bihar",
+                "title": "Thekua",
+                "image": "https://images.herzindagi.info/image/2022/Oct/2-types-of-thekua-recipe.jpg",
+                "instructions": "Prepare dough with flour, jaggery, and fry molded pieces.",
+                "ingredients": [
+                  { "name": "Wheat flour", "amount": "2 cups" },
+                  { "name": "Jaggery", "amount": "1 cup" },
+                  { "name": "Ghee", "amount": "2 tbsp" },
+                  { "name": "Fennel seeds", "amount": "1 tsp" },
+                  { "name": "Water", "amount": "as needed" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 36,
+                "location": "Uttarakhand",
+                "title": "Bal Mithai",
+                "image": "https://www.bakingo.com/blog/wp-content/uploads/2023/04/bal-mithai-24.jpg",
+                "instructions": "Cook khoya with sugar, shape, and coat with sugar balls.",
+                "ingredients": [
+                  { "name": "Khoya", "amount": "500g" },
+                  { "name": "Sugar", "amount": "2 cups" },
+                  { "name": "Sugar balls", "amount": "1/2 cup" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 37,
+                "location": "Jharkhand",
+                "title": "Rugra",
+                "image": "https://www.crazymasalafood.com/wp-content/images/2022/05/Rugra.png",
+                "instructions": "Cook rugra mushrooms with spices and onions.",
+                "ingredients": [
+                  { "name": "Rugra mushrooms", "amount": "250g" },
+                  { "name": "Onions", "amount": "2 medium" },
+                  { "name": "Garlic", "amount": "5 cloves" },
+                  { "name": "Mustard oil", "amount": "2 tbsp" },
+                  { "name": "Spices", "amount": "to taste" }
+                ],
+                "dietary": "vegetarian"
+              },
+              {
+                "id": 38,
+                "location": "Manipur",
+                "title": "Nga-Thongba",
+                "image": "https://www.licious.in/blog/wp-content/uploads/2021/12/Licious-Blog-Shoot11700-1024x1024.jpg",
+                "instructions": "Cook fish curry with local spices and serve hot.",
+                "ingredients": [
+                  { "name": "Fish", "amount": "500g" },
+                  { "name": "Onions", "amount": "2 medium" },
+                  { "name": "Garlic", "amount": "5 cloves" },
+                  { "name": "Spices", "amount": "to taste" },
+                  { "name": "Mustard oil", "amount": "2 tbsp" }
+                ],
+                "dietary": "non-vegetarian"
+              },
+              {
+                "id": 39,
+                "location": "Nagaland",
+                "title": "Axone Pork",
+                "image": "https://i.ytimg.com/vi/f9NGZw9jFnY/maxresdefault.jpg",
+                "instructions": "Cook pork with fermented soybeans and spices.",
+                "ingredients": [
+                  { "name": "Pork", "amount": "500g" },
+                  { "name": "Axone (fermented soybeans)", "amount": "1 cup" },
+                  { "name": "Garlic", "amount": "5 cloves" },
+                  { "name": "Chilies", "amount": "2-3" },
+                  { "name": "Salt", "amount": "to taste" }
+                ],
+                "dietary": "non-vegetarian"
+              },
+              {
+                "id": 40,
+                "location": "Goa",
+                "title": "Prawn Balchao",
+                "image": "https://www.boldsky.com/img/2013/10/24-goan-prawn-balchao-recipe-241251.jpg",
+                "instructions": "Marinate prawns and cook in a tangy, spicy Goan masala.",
+                "ingredients": [
+                  { "name": "Prawns", "amount": "500g" },
+                  { "name": "Vinegar", "amount": "2 tbsp" },
+                  { "name": "Onions", "amount": "2 large" },
+                  { "name": "Tomatoes", "amount": "2 medium" },
+                  { "name": "Spices", "amount": "to taste" },
+                  { "name": "Oil", "amount": "2 tbsp" }
+                ],
+                "dietary": "non-vegetarian"
+              }              
+           ]
+  
