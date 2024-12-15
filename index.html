@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Finder</title>
+    <link rel="icon" href="/OIP.jpeg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <div class="hearder_section">
+      <div class="nav_icon">
+        <img src="/logo.png" width="120px" alt="" />
+      </div>
+      <div class="nav_search">
+        <input
+          type="search"
+          name=""
+          placeholder="search by dish name..."
+          id="searchInput"
+          onkeyup="searchDish()"
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="menubar"><i class="fa-solid fa-bars"></i></div>
+      <div class="nav_rightpart">
+        <div class="wishlists">
+          <button class="wishlists-btn">
+          <div style="color: white">wishlists</div>
+          <div><i class="fa-solid fa-heart"></i></div>
+        </button>
+        </div>
+        <div>
+          <button class="signup">Signup / Login</button>
+        </div>
+      </div>
+      <div class="responsive_bar">
+        <div class="wishlist">
+          <button class="wishlists-btn">
+          <div>wishlists</div>
+          <div><i class="fa-solid fa-heart"></i></div>
+        </button>
+        </div>
+        <div style="color: white;">|</div>
+        <div>
+          <button class="signup">Signup / Login</button>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="goTop">Go Top <i class="fa-solid fa-arrow-up"></i></button> -->
+    <!-- filter carousels -->
+     <div class="filterCarousels">
+      <div class="filter_btn">
+        <button style="display: flex;justify-content: center;align-items: center;gap: 10px;">Filter <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="filters">
+        <div class="scrollLeft" onclick="leftScoll()">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="filterCatagories">
+          <div class="btn_1">
+            <button class="add_to_cart" id="dietaryFilter" onclick="filterBydietary('vegetarian')">vegetarian</button>
+          </div>
+          <div class="btn_1">
+            <button class="add_to_cart" id="dietaryFilter" onclick="filterBydietary('non-vegetarian')">Non-vegetarian</button>
+          </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Hyderabad')">Hyderabad</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Tamil Nadu')">TamilNadu</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Delhi')">Delhi</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Kerala')">Kerala</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Mumbai')">Mumbai</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Punjab')">Punjab</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Gujarat')">Gujarat</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Goa')">Goa</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Maharashtra')">Maharastra</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('West Bengal')">West Bengal</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Kashmir')">Kashmir</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Assam')">Assam</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Odisha')">Odisha</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Bihar')">Bihar</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Uttarakhand')">Uttarakhand</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Jharkhand')">Jharkhand</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Manipur')">Manipur</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Nagaland')">Nagaland</button>
+        </div>
+        <div class="btn_1">
+          <button class="add_to_cart" id="locationFilter" onclick="filterByLocation('Rajasthan')">Rajasthan</button>
+        </div>
+        </div>
+        <div class="scrollRight" onclick="rightScroll()">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+     </div>
+     <!-- background image  -->
+     <div class="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.mynestle.in/media/wysiwyg/recipie_landing_page-05.jpg" width="100%" height="650px"   alt="Image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.mynestle.in/media/wysiwyg/Recipe_Banner_06_1.jpg" width="100%" height="650px" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.mynestle.in/media/wysiwyg/Recipie_detailes_page_4_April_2_Recipe_Banner_08_copy_39.jpg" width="100%" height="650px" alt="Image 3">
+        </div>
+      </div>
+      <button class="carousel-prev"><i class="fa-solid fa-chevron-left chevron-left"></i></button>
+      <button class="carousel-next"><i class="fa-solid fa-chevron-right chevron-right"></i></button>
+    </div>
+    <!-- filtering by location -->
+     <div class="whole_filterdCards">
+      <div class="filteredCards" style="position: relative;top: 350px;"></div>
+     </div>
+     <!-- cards through json data -->
+     <div class="whole_container">
+      <h1 style="margin: 50px 0 0 50px;">Popular dishes :-</h1>
+      <div class="container">
+      </div>
+      <div class="pagination_list">
+        <ul class="page_btns" onclick="listpage()">
+        </ul>
+      </div>
+    </div>
+      <!-- footer block -->
+       <div class="wholeFooter">
+        <div class="footer_1">
+          <div class="webName"><b><a href="index.html">RECIPE FINDER</a></b></div>
+          <div class="area_language">
+            <div class="areas">
+            <select id="india" name="options">
+              <option value="option1">India</option>
+              <option value="option2">USA</option>
+            </select>
+          </div>
+          <div class="languages">
+            <select id="india" name="options">
+              <option value="option1">Engish</option>
+              <option value="option2">Türkçe</option>
+              <option value="option3">हिंदी</option>
+              <option value="option4">Português (BR)</option>
+              <option value="option5">Indonesian</option>
+              <option value="option6">Português (PT)</option>
+              <option value="option7">Español</option>
+              <option value="option8">Čeština</option>
+              <option value="option9">Slovenčina</option>
+              <option value="option10">Polish</option>
+              <option value="option11">Italian</option>
+              <option value="option12">Vietnamese</option>
+            </select>
+          </div>
+          </div>
+        </div>
+        <div class="footer_2">
+          <div class="Foot1_about">
+            <h2 style="margin-bottom: 10px;">ABOUT </h2>
+            <a href="">Who We Are</a>
+            <a href="">Blog</a>
+            <a href="">Work With Us</a>
+            <a href="">Investor Relations</a>
+            <a href="">Dolandırıcılık Bildir</a>
+            <a href="">Press Kit</a>
+            <a href="">Contact Us</a>
+          </div>
+          <div class="Foot1_RecipeVerse">
+            <h2 style="margin-bottom: 10px;">RecipeVerse</h2>
+            <a href="">Recipe Finder</a>
+            <a href="">Blinkit</a>
+            <a href="">District</a>
+            <a href="">Feeding India</a>
+            <a href="">Hyperpure</a>
+            <a href="">RF Live</a>
+            <a href="">Recipeland</a>
+            <a href="">Weather Union</a>
+          </div>
+          <div class="Foot1_restoranlar">
+            <h2 style="margin-bottom: 10px;">RESTORANLAR İÇİN</h2>
+            <a href="">Partner With Us</a>
+            <a href="">Apps For You</a>
+          </div>
+          <div class="Foot1_learnmore">
+            <h2 style="margin-bottom: 10px;">LEARN MORE</h2>
+            <a href="">Gizlilik</a>
+            <a href="">Güvenlik</a>
+            <a href="">Koşullar</a>
+          </div>
+          <div class="Foot1_media">
+            <h2 style="letter-spacing: 8px;">SOSYAL MEDYA <br> LINKLERI</h2>
+            <div class="mediaIcons">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="stores">
+              <div class="appstore"><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" width="250px" alt=""></div>
+              <div class="googleplay">
+                <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" width="250px" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_3">
+          <hr style="color: white;padding: 0;margin: 0;">
+          <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+       </div>
+       <!-- signup/login block -->
+       <div class="popup-overlay">
+        <div class="popup-container">
+            <button class="close-btn">&times;</button>
+            <div class="form-container">
+                <div class="form-header">
+                    <h2 class="active" id="signup-header">Sign Up</h2>
+                    <h2 id="login-header">Login</h2>
+                </div>
+                <form id="signup-form" class="active">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Sign Up</button>
+                </form>
+                <form id="login-form">
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
