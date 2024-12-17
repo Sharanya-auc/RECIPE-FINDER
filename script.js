@@ -136,10 +136,12 @@ function filterBydietary(dietary) {
     : fetchedData.filter(item => item.dietary.toLowerCase() === dietary.toLowerCase());
 
   displayCards(filteredData); // Display filtered cards
-  // const carousel = document.querySelector('.carousel');
-  // const hearder_section = document.querySelector('.hearder_section');
-  // carousel.style.display = 'none';
-  // hearder_section.style.top = '0px';
+  const carousel = document.querySelector('.carousel');
+  const hearder_section = document.querySelector('.hearder_section');
+  const container = document.querySelector(".container");
+  carousel.style.display = 'none';
+  hearder_section.style.top = '0px';
+  // container.style.bottom = '100px';
 }
 
 // Function to search dishes by name
@@ -152,6 +154,8 @@ function searchDish() {
   thisPage = 1; // Reset to page 1 for search results
   displayCards(filteredData);
   loadPagination(filteredData);
+  // const carousel = document.querySelector('.carousel');
+  // carousel.style.display = 'none';
 }
 
 // go top btn activing

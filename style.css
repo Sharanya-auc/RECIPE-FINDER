@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
   box-sizing: border-box;
   background-color: rgb(210, 202, 202);
   overflow-x: hidden;
